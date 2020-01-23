@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 1200px;
+    width: 1000px;
+    border: solid rgb(71, 64, 64);
+
+}
+.block{
+    height:10px;
+    width: 100%;
+    background-color:#f2ac04;
+}
+.block1{
+    padding-top:20px;
+    display: flex;
+    justify-content: flex-start;
+}
+h1{
+    margin-left: 30px;
+    position: relative;
+}
+
+.block1 h1::after{
+    content:'';
+    display: block;
+    width: 2px;
+    height: 1.5em;
+    background-color: gray;
+    position: absolute;
+    right: -20px;
+    top: 0;
+}
+h2{
+    margin-left:60px;
+}
+h6{
+    margin-left: 60px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding-right: 20px;
+}
+.img-wrap{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.img-wrap>div{
+    max-width: 45%;
+}
+.info{
+    display: flex;
+
+}
+.content{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+
+}
+.row1{
+    display: flex;
+}   
+.info-text{
+    margin-left:50px;
+}
+#Lipsum{
+    margin-left: 40px;
+}
+#Lipsum1{
+    margin-left: 70px;
+}
+#Lipsum3{
+    margin-left:30px;
+}
